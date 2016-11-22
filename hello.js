@@ -8,6 +8,10 @@ http.createServer(function(request, response) {
         name = 'world';
     }
 
+    if (name === 'bob') {
+        name = 'totally awesome, Bob!';
+    }
+
     if (name == 'burningbird') {
         var file = 'phoenix5a.png';
         fs.stat(file, function(err, stat) {
