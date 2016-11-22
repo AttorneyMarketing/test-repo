@@ -5,7 +5,7 @@ http.createServer(function(request, response) {
     var name = require('url').parse(request.url, true).query.name;
 
     if (name === undefined) {
-        name = 'world';
+        name = 'world!';
     }
 
     if (name === 'bob') {
