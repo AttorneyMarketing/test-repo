@@ -9,7 +9,7 @@ http.createServer(function(request, response) {
     }
 
     if (name === 'bob') {
-        name = 'totally awesome, Bob!';
+        name = 'totally awesome, Bob!!!!';
     }
 
     if (name == 'burningbird') {
